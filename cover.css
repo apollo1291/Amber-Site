@@ -29,7 +29,10 @@ body {
 /*
  * Header
  */
-
+.icon{
+  width: 1em;
+  height: 1em;
+}
 .nav-masthead .nav-link {
   color: rgba(255, 255, 255, .5);
   border-bottom: .25rem solid transparent;
@@ -47,4 +50,24 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+.input {
+  background: transparent;
+  border-color: white;
+  border-radius: 2%;
+  display: block;
+  outline: none;
+  width: 80%;
+  height: 18%;
+  top: 250px;
+  margin: 1em auto;
+  padding: 10px;
+  color: white;
+  -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+}
+
+::placeholder{
+  color: white;
 }
