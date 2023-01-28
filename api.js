@@ -15,7 +15,7 @@ get_input = () => {
 get_emission = async () => {
     data = get_input()
     console.log(data)
-response = await fetch("http://localhost:5000/get_emissions", {
+response = await fetch("https://amber-deploy.onrender.com/get_emissions", {
         method: "POST",
 
         headers: {
